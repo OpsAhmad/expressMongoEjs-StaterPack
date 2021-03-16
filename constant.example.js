@@ -1,3 +1,5 @@
+/* constant.example.js */
+
 /* 
 app_url
 route_web folder

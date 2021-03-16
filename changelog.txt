@@ -1,0 +1,6 @@
+# march 16 2021
+1. adding app_url constant variable
+2. improving documentation
+3.  adding method for apiController
+4. adding constant to public controller
+5. place model to model folder

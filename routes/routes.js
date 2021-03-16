@@ -2,6 +2,7 @@
 
 /* 
 endn point summary :
+Get   /  as  http://host/ : return a index page rendered from public controller  
 
 */
 
@@ -11,8 +12,11 @@ const router = express.Router();
 // Import master controller
 const publicController = require("../controller/publicController");
 
-
-// set default API response
+/* using router.route */
+// router.get("/",function(req,res){
+// your code here
+// });
+// set default route response
 router.route("/")
 .get(publicController.index)
 

@@ -56,6 +56,8 @@ const storage = multer.diskStorage({
 
 // Initialize app
 const app = express();
+app.use(bodyParser.json()); // set routes public
+app.use("/",routes);  // set routes public
 app.use(express.static('./public'));  // set static folder
 app.use("/",routes);  // set routes public
 app.use("/api",api); // set routes api
